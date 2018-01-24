@@ -32,7 +32,7 @@ public class adivinhaMain extends AppCompatActivity {
                int numeroAleatorio = random.nextInt(10);
 
 
-               textoResultado.setText("Número escolhido: " + numeroAleatorio);
+               textoResultado.setText("Número escolhido: " + numeroAleatorio +"Certo ");
            }
        });
     }
